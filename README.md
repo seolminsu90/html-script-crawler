@@ -5,6 +5,16 @@
 jsoup 기반으로 HTML script를 긁어온다. 긁어온 script Text는 특정 조건에 맞게 텍스트 가공 처리된다.   
 대문자 소문자 숫자 제외 파싱 -> 중복 처리 -> 대소대소..숫자 정렬 -> 대-소-숫 기준으로 노출된다.   
 
+**실행**
+
+```bash
+# 실행
+java -jar parser-0.0.1-SNAPSHOT.jar
+
+# 빌드
+mvn clean package
+```
+
 #### 사용
 
 - spring boot 2.7.2
