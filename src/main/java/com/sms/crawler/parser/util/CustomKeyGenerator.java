@@ -18,7 +18,7 @@ public class CustomKeyGenerator implements KeyGenerator {
      */
     public Object generate(Object target, Method method, Object... params) {
 
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(method.getName());
         for (Object param : params) {
             if (param instanceof String[]) {
                 String[] targetURLs = (String[]) param;
