@@ -14,9 +14,9 @@ jsoup 기반으로 HTML script를 긁어온다. 긁어온 script Text는 특정 
 
 #### entpoint 정보
 
-| URL          |METHOD| PARAMETER                                                                              |
-|--------------|------|----------------------------------------------------------------------------------------|
-| /api/crawler |GET| `{targetURLs/Array<String>/Optional/크롤링대상목록}, {isCaching/Boolean/Optional/캐싱여부(true)}` |
+| URL          |METHOD| PARAMETER                                                                               |
+|--------------|------|-----------------------------------------------------------------------------------------|
+| /api/crawler |GET| {targetURLs/Array<String>/Optional/크롤링대상목록},    {isCaching/Boolean/Optional/캐싱여부(true)} |
 
 *예시 호출*
 
