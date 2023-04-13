@@ -17,6 +17,7 @@ mvn clean package
 
 #### 사용
 
+- jdk 11
 - spring boot 2.7.2
 - ehcache 3.8
 - jsoup

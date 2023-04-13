@@ -84,7 +84,7 @@ public class ParseUtil {
      * @param comparator comparator
      * @return
      */
-    private static String sortString(String s, Comparator comparator) {
+    public static String sortString(String s, Comparator comparator) {
         String[] arr = s.split("");
         Arrays.sort(arr, comparator);
         return String.join("", arr);
@@ -96,7 +96,7 @@ public class ParseUtil {
      * @param s 대상텍스트
      * @return
      */
-    private static String distinct(String s) {
+    public static String distinct(String s) {
         StringBuilder sb = new StringBuilder();
         for (char c : s.toCharArray()) {
             if (sb.indexOf(String.valueOf(c)) == -1) {
