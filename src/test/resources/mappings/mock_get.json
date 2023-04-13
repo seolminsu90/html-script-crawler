@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/sample-url"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/xml"
+    },
+    "status": 200,
+    "body": "<html><body><img src='Apple.png'/>Public Static void main 900103 Minsu</body></html>"
+  }
+}
